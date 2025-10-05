@@ -1,0 +1,4 @@
+// Simple: modificar solo la variable mensaje
+string mensaje = "Hola, viejo mensaje";
+mensaje = "Este es el nuevo mensaje"; // modificamos solo el mensaje
+Console.WriteLine(mensaje);

@@ -1,11 +1,12 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Claculada
+namespace ProyectoGitDemo
 {
-    /// <summary>
-    /// Clase Calculadora: contiene operaciones básicas de matemáticas.
-    /// </summary>
-    public class Calculadora
+    internal class Class1
     {
         // Método de suma
         public double Sumar(double a, double b)
@@ -37,14 +38,11 @@ namespace Claculada
         }
     }
 
-    /// <summary>
-    /// Programa principal para probar la Calculadora.
-    /// </summary>
     internal class Program
     {
         static void Main(string[] args)
         {
-            Calculadora calc = new Calculadora();
+            Class1 calc = new Class1();
 
             Console.WriteLine("=== 🧮 Calculadora Básica ===");
             Console.Write("Ingrese el primer número: ");
@@ -63,4 +61,6 @@ namespace Claculada
             Console.ReadKey();
         }
     }
+
+}
 }
